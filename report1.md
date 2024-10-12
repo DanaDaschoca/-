@@ -59,7 +59,8 @@
     <img width="497" alt="Снимок9" src="https://github.com/user-attachments/assets/3cb09081-c945-4d40-8ada-4abb29ee28b2">
 
 11)  И это еще не конец лабораторной работыю Теперь нужно настроить файл с параметрами SSL ```/etc/nginx/snippets/self-signed.conf```
-    <img width="590" alt="Снимок10" src="https://github.com/user-attachments/assets/e9aa22e1-cb81-4130-9a0d-619ebc170402">
+
+ <img width="590" alt="Снимок10" src="https://github.com/user-attachments/assets/e9aa22e1-cb81-4130-9a0d-619ebc170402">
 
 12)  Теперь сделаем синтаксический контроль (что все сделано правильно в нашей работе)
 
