@@ -67,11 +67,11 @@ sudo systemctl enable nginx.
 
 
 13)   Итак, теперь мы должны проверить, что мы подключаемся к сайту по https.
-    <img width="469" alt="Снимок12" src="https://github.com/user-attachments/assets/2efdc4d2-8a7b-4baa-a64d-fd5f192faee5">
-    <img width="483" alt="Снимок13" src="https://github.com/user-attachments/assets/5374a69c-87f3-4ced-93cd-0f7de31f6d13">
+ <img width="469" alt="Снимок12" src="https://github.com/user-attachments/assets/2efdc4d2-8a7b-4baa-a64d-fd5f192faee5">
+ <img width="483" alt="Снимок13" src="https://github.com/user-attachments/assets/5374a69c-87f3-4ced-93cd-0f7de31f6d13">
 
 14)   Соединение незащищенное, что необходимо для лабораторной 1*.
-    <img width="365" alt="Снимок14" src="https://github.com/user-attachments/assets/751ba331-c74b-4f7d-9d7f-c0479dcdd45e">
+ <img width="365" alt="Снимок14" src="https://github.com/user-attachments/assets/751ba331-c74b-4f7d-9d7f-c0479dcdd45e">
     
 ## Вывод: 
 D ходе лабораторной работы мы перенаправили проход на сайт с http по https с порта 80 на 443. Также были сложности с тем что комнады большие, поэтому были опечатки, из-за чего возникали ошибки. У нас не было проектов с доменных именами, поэтому пришлось создать проекты, где сами прописали доменные имена. 
