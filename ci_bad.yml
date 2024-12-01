@@ -1,0 +1,22 @@
+name: Bad CI Pipeline
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        run: git clone https://github.com/tanyalebedeva/ci-cd-2
+
+      - name: Install Python 3.6
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.6
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run tests
+        run: python tests/test_app.py
