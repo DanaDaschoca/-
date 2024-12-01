@@ -1,0 +1,31 @@
+deployment: 
+    name: mcperception
+    replicas: 2 
+ 
+app: 
+    name: mcperception
+    containerName: mcperception
+    image: nginx:alpine
+    containerPort: 80 
+ 
+service: 
+    name: mcperception
+    type: NodePort 
+    port: 3000 
+    nodePort: 30001
+ 
+volume: 
+    name: html-volume 
+    mountPath: /usr/share/nginx/html 
+ 
+configMap:
+    name: mcperception-config
+
+serviceAccount: 
+    create: false
+
+ingress:
+    enabled: false
+
+autoscaling:
+    enabled: false
